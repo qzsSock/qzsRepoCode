@@ -1,0 +1,29 @@
+{
+  "name": "AlicloudUtils",
+  "version": "1.3.9",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "summary": "Aliyun Mobile Service tools.",
+  "homepage": "https://www.aliyun.com",
+  "authors": {
+    "junmo": "lingkun.lk@alibaba-inc.com"
+  },
+  "source": {
+    "http": "https://ios-repo.oss-cn-shanghai.aliyuncs.com/utils/1.3.9/utils.zip"
+  },
+  "vendored_frameworks": "utils/AlicloudUtils.framework",
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "libraries": "resolv",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "dependencies": {
+    "AlicloudUTDID": [
+
+    ]
+  }
+}
